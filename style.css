@@ -46,6 +46,7 @@ textarea::placeholder{
 }
 
 .row{
+    
     width: 600px;
     display: flex;
     align-items: center;
@@ -86,4 +87,50 @@ select{
     background-size: 15px;
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
+}
+
+@media(max-width:991px){
+    .hero,
+    .hero h1{
+        padding: 15px 5%;
+        font-size: 25px;
+    }
+
+   
+}
+@media(max-width:768px){
+    textarea {
+        padding: 15px 10%;
+        width: 470px;
+        font-size: 10px;
+    }  
+    select{
+    
+        width: 100%;
+        font-size: 10px;
+    }
+    .row{
+        width: 470px;
+        font-size: 10px;
+        align-items: center;
+        
+    }
+    
+}
+@media(max-width:420px){
+    textarea {
+        padding: 15px 10%;
+        width: 370px;
+        font-size: 5px;
+    }  
+   select{
+        width: 100%;
+        font-size: 10px;
+    }
+    .row{
+        width: 370px;
+        font-size: 5px;
+        align-items: center;
+        
+    }
 }
