@@ -121,7 +121,7 @@ select{
     textarea {
         padding: 15px 10%;
         width: 370px;
-        font-size: 5px;
+        font-size: 30px;
     }  
    select{
         width: 100%;
